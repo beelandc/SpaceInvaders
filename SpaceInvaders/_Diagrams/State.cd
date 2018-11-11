@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SpaceInvaders.SpaceInvadersGameState">
+    <Position X="6" Y="0.5" Width="1.75" />
+    <Members>
+      <Field Name="changeState" Hidden="true" />
+      <Field Name="currAlienGridSpeed" Hidden="true" />
+      <Field Name="currLevelInitialAlienGridY" Hidden="true" />
+      <Field Name="gameInitialAlienGridSpeed" Hidden="true" />
+      <Field Name="gameInitialAlienGridX" Hidden="true" />
+      <Field Name="gameInitialAlienGridY" Hidden="true" />
+      <Method Name="GetCompositeManager" Hidden="true" />
+      <Method Name="GetCoreCannonManager" Hidden="true" />
+      <Method Name="GetCurrAlienGridSpeed" Hidden="true" />
+      <Method Name="GetDelayedObjectManager" Hidden="true" />
+      <Method Name="GetGameInitialGridSpeed" Hidden="true" />
+      <Method Name="GetGameInitialGridXPosition" Hidden="true" />
+      <Method Name="GetGameInitialGridYPosition" Hidden="true" />
+      <Method Name="GetGameObjectManager" Hidden="true" />
+      <Method Name="GetGhostManager" Hidden="true" />
+      <Method Name="GetLevelInitialAlienGridSpeed" Hidden="true" />
+      <Method Name="GetLevelInitialAlienGridYPos" Hidden="true" />
+      <Method Name="GetQueuedTimeEventManager" Hidden="true" />
+      <Method Name="GetSpriteBatchManager" Hidden="true" />
+      <Method Name="GetStateName" Hidden="true" />
+      <Method Name="IsLevelResetPending" Hidden="true" />
+      <Method Name="IsStateChangePending" Hidden="true" />
+      <Field Name="levelInitialAlienGridSpeed" Hidden="true" />
+      <Field Name="pCompositeManager" Hidden="true" />
+      <Field Name="pCoreCannonManager" Hidden="true" />
+      <Field Name="pDelayedObjectManager" Hidden="true" />
+      <Field Name="pGameObjectManager" Hidden="true" />
+      <Field Name="pGhostManager" Hidden="true" />
+      <Field Name="pQueuedTimeEventManager" Hidden="true" />
+      <Field Name="pSpriteBatchManager" Hidden="true" />
+      <Field Name="resetLevel" Hidden="true" />
+      <Method Name="SetCurrAlienGridSpeed" Hidden="true" />
+      <Method Name="SetLevelInitialAlienGridSpeed" Hidden="true" />
+      <Method Name="SetLevelInitialAlienGridYPos" Hidden="true" />
+      <Method Name="SetLevelResetPending" Hidden="true" />
+      <Method Name="SetStateChangePending" Hidden="true" />
+      <Method Name="SpaceInvadersGameState" Hidden="true" />
+      <Method Name="UpdateHiScore" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AUQAAACCBAABAkRMIAwBwAlAACiIgINMABAIAhBCAQQ=</HashCode>
+      <FileName>GameState\SpaceInvadersGameState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.GameAttractState">
+    <Position X="3.25" Y="4.5" Width="1.5" />
+    <Members>
+      <Method Name="AttachInputObservers" Hidden="true" />
+      <Method Name="CleanPlayerState" Hidden="true" />
+      <Method Name="DetachInputObservers" Hidden="true" />
+      <Field Name="firstGame" Hidden="true" />
+      <Method Name="GameAttractState" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAQAAACCAABAAgAAAAEAAAAAAAAAAAIAAAAAAAAAAAQ=</HashCode>
+      <FileName>GameState\GameAttractState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.GameEndState">
+    <Position X="9.25" Y="4.5" Width="1.5" />
+    <Members>
+      <Method Name="AttachInputObservers" Hidden="true" />
+      <Method Name="DetachInputObservers" Hidden="true" />
+      <Method Name="GameEndState" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAQAAACCAAAAAgAAAAAAAAAAAAAAAAIAAAAAAAAAAAQ=</HashCode>
+      <FileName>GameState\GameEndState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.GamePlayer1State">
+    <Position X="5.25" Y="4.5" Width="1.5" />
+    <Members>
+      <Method Name="AttachInputObservers" Hidden="true" />
+      <Method Name="DetachInputObservers" Hidden="true" />
+      <Method Name="GamePlayer1State" Hidden="true" />
+      <Field Name="pAlien_SpriteBatch" Hidden="true" />
+      <Field Name="pAlienGrid" Hidden="true" />
+      <Field Name="pBomb_SpriteBatch" Hidden="true" />
+      <Field Name="pCollisionBox_SpriteBatch" Hidden="true" />
+      <Field Name="pCoreCannon_SpriteBatch" Hidden="true" />
+      <Field Name="pFlyingSaucer_SpriteBatch" Hidden="true" />
+      <Field Name="pGreenColor" Hidden="true" />
+      <Field Name="pMissile_SpriteBatch" Hidden="true" />
+      <Field Name="pShield_SpriteBatch" Hidden="true" />
+      <Field Name="pTexts_SpriteBatch" Hidden="true" />
+      <Field Name="pWall_SpriteBatch" Hidden="true" />
+      <Field Name="pWallGroup" Hidden="true" />
+      <Field Name="r" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>BAQAQACCAAGAAgAAAAABQAAAAAAAAANAAAABAAEAIIQ=</HashCode>
+      <FileName>GameState\GamePlayer1State.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.GamePlayer2State">
+    <Position X="7.25" Y="4.5" Width="1.5" />
+    <Members>
+      <Method Name="AttachInputObservers" Hidden="true" />
+      <Method Name="DetachInputObservers" Hidden="true" />
+      <Method Name="GamePlayer2State" Hidden="true" />
+      <Field Name="pAlien_SpriteBatch" Hidden="true" />
+      <Field Name="pAlienGrid" Hidden="true" />
+      <Field Name="pBomb_SpriteBatch" Hidden="true" />
+      <Field Name="pCollisionBox_SpriteBatch" Hidden="true" />
+      <Field Name="pCoreCannon_SpriteBatch" Hidden="true" />
+      <Field Name="pFlyingSaucer_SpriteBatch" Hidden="true" />
+      <Field Name="pGreenColor" Hidden="true" />
+      <Field Name="pMissile_SpriteBatch" Hidden="true" />
+      <Field Name="pShield_SpriteBatch" Hidden="true" />
+      <Field Name="pTexts_SpriteBatch" Hidden="true" />
+      <Field Name="pWall_SpriteBatch" Hidden="true" />
+      <Field Name="pWallGroup" Hidden="true" />
+      <Field Name="r" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>BAQAQACCAAGAAgAAAAABQAAAAAAAAANAAAABAAEAIIQ=</HashCode>
+      <FileName>GameState\GamePlayer2State.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.GameStateManager">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <Members>
+      <Method Name="Create" Hidden="true" />
+      <Method Name="GameStateManager" Hidden="true" />
+      <Method Name="PrivInstance" Hidden="true" />
+    </Members>
+    <NestedTypes>
+      <Enum Name="SpaceInvaders.GameStateManager.GameState" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>GameState\GameStateManager.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <AssociationLine Name="pGame" Type="SpaceInvaders.SpaceInvaders">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.327" Y="0.068" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>iCAACEAAAAAAAAAAAEAAAAQAAABAAEAAAAgAACAAAAA=</HashCode>
+      <FileName>GameState\GameStateManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pGame" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.SpaceInvaders">
+    <Position X="3.25" Y="0.5" Width="1.5" />
+    <Members>
+      <Method Name="AttachStateInputObservers" Hidden="true" />
+      <Method Name="DetachStateInputObservers" Hidden="true" />
+      <Method Name="GetGameInitialAlienGridSpeed" Hidden="true" />
+      <Method Name="GetGameInitialGridXPosition" Hidden="true" />
+      <Method Name="GetGameInitialGridYPosition" Hidden="true" />
+      <Method Name="GetGameScopeSpriteBatchManager" Hidden="true" />
+      <Method Name="GetHiScore" Hidden="true" />
+      <Method Name="GetNumCredits" Hidden="true" />
+      <Method Name="GetPlayer" Hidden="true" />
+      <Method Name="GetStateAlienGridSpeed" Hidden="true" />
+      <Method Name="GetStateCompositeManager" Hidden="true" />
+      <Method Name="GetStateCoreCannonManager" Hidden="true" />
+      <Method Name="GetStateDelayedObjectManager" Hidden="true" />
+      <Method Name="GetStateGameObjectManager" Hidden="true" />
+      <Method Name="GetStateGhostManager" Hidden="true" />
+      <Method Name="GetStateLevelInitialAlienGridSpeed" Hidden="true" />
+      <Method Name="GetStateLevelInitialAlienGridYPosition" Hidden="true" />
+      <Method Name="GetStateQueuedTimeEventManager" Hidden="true" />
+      <Method Name="GetStateSpriteBatchManager" Hidden="true" />
+      <Field Name="hiScore" Hidden="true" />
+      <Method Name="IsLevelResetPending" Hidden="true" />
+      <Method Name="IsTwoPlayerMode" Hidden="true" />
+      <Field Name="numCredits" Hidden="true" />
+      <Field Name="pGameSpriteBatchManager" Hidden="true" />
+      <Field Name="pGameTexts_SpriteBatch" Hidden="true" />
+      <Field Name="pGreenColor" Hidden="true" />
+      <Field Name="player1" Hidden="true" />
+      <Field Name="player2" Hidden="true" />
+      <Field Name="pRedColor" Hidden="true" />
+      <Method Name="SetHiScore" Hidden="true" />
+      <Method Name="SetPlayer" Hidden="true" />
+      <Method Name="SetResetLevelFlag" Hidden="true" />
+      <Method Name="SetStateAlienGridSpeed" Hidden="true" />
+      <Method Name="SetStateChangeFlag" Hidden="true" />
+      <Method Name="SetStateLevelInitialAlienGridSpeed" Hidden="true" />
+      <Method Name="SetStateLevelInitialAlienGridYPosition" Hidden="true" />
+      <Method Name="SetTwoPlayerMode" Hidden="true" />
+      <Field Name="twoPlayerMode" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>wASAMIABAQAREzQEBAUAAUAAEAAIQQDEQBBQAhAgRRQ=</HashCode>
+      <FileName>Game.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pGameState" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

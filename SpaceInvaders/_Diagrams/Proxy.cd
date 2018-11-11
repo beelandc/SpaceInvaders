@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SpaceInvaders.SpriteProxy">
+    <Position X="1" Y="0.5" Width="1.5" />
+    <Members>
+      <Method Name="~SpriteProxy" Hidden="true" />
+      <Method Name="GetName" Hidden="true" />
+      <Method Name="GetSpriteScreenRect" Hidden="true" />
+      <Method Name="GetX" Hidden="true" />
+      <Method Name="GetY" Hidden="true" />
+      <Field Name="name" Hidden="true" />
+      <Method Name="SetName" Hidden="true" />
+      <Method Name="SetSprite" Hidden="true" />
+      <Method Name="SetX" Hidden="true" />
+      <Method Name="SetY" Hidden="true" />
+      <Method Name="SpriteProxy" Hidden="true" />
+    </Members>
+    <NestedTypes>
+      <Enum Name="SpaceInvaders.SpriteProxy.Name" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Sprite\SpriteProxy\SpriteProxy.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <AssociationLine Name="pSprite" Type="SpaceInvaders.Sprite">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="1.01" Y="0.11" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAQIAAAAAAABBAYAAAAAAAgAAAAEAAAAYBBgQAAAZAA=</HashCode>
+      <FileName>Sprite\SpriteProxy\SpriteProxy.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pSprite" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.Sprite">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <Members>
+      <Method Name="~Sprite" Hidden="true" />
+      <Method Name="createAzulSprite" Hidden="true" />
+      <Method Name="GetName" Hidden="true" />
+      <Method Name="GetScreenRect" Hidden="true" />
+      <Method Name="Print" Hidden="true" />
+      <Method Name="SetAzulSprite" Hidden="true" />
+      <Method Name="SetImage" Hidden="true" />
+      <Method Name="SetName" Hidden="true" />
+      <Method Name="SetScreenRect" Hidden="true" />
+      <Method Name="Sprite" Hidden="true" />
+      <Method Name="SwapColor" Hidden="true" />
+      <Method Name="SwapImage" Hidden="true" />
+      <Method Name="UpdateScreenRect" Hidden="true" />
+    </Members>
+    <NestedTypes>
+      <Enum Name="SpaceInvaders.Sprite.Name" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Sprite\Sprite.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AgQAAAAAAAAALAAAAAgIAAEAAAAEEAAAARAAQAAEdIA=</HashCode>
+      <FileName>Sprite\Sprite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

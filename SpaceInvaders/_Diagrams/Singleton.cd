@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SpaceInvaders.Manager" Collapsed="true">
+    <Position X="1.25" Y="0.5" Width="1.5" />
+    <Members>
+      <Method Name="~Manager" Hidden="true" />
+      <Field Name="activeNodeNum" Hidden="true" />
+      <Method Name="AddToReservedList" Hidden="true" />
+      <Method Name="BaseAdd" Hidden="true" />
+      <Method Name="BaseDestroy" Hidden="true" />
+      <Method Name="BaseFind" Hidden="true" />
+      <Method Name="BaseGetActive" Hidden="true" />
+      <Method Name="BaseGetNodeFromReserve" Hidden="true" />
+      <Method Name="BaseRemove" Hidden="true" />
+      <Method Name="BaseSetActiveHead" Hidden="true" />
+      <Method Name="BaseSetReserve" Hidden="true" />
+      <Method Name="ClearList" Hidden="true" />
+      <Method Name="DerivedCompare" Hidden="true" />
+      <Method Name="DerivedCreateNode" Hidden="true" />
+      <Method Name="DerivedDestroyNode" Hidden="true" />
+      <Method Name="GetGrowDelta" Hidden="true" />
+      <Field Name="growDelta" Hidden="true" />
+      <Method Name="Manager" Hidden="true" />
+      <Method Name="PrintNodes" Hidden="true" />
+      <Method Name="PrintStats" Hidden="true" />
+      <Field Name="reserveNodeNum" Hidden="true" />
+      <Method Name="SetGrowDelta" Hidden="true" />
+      <Field Name="totalNodeNum" Hidden="true" />
+    </Members>
+    <AssociationLine Name="pActive" Type="SpaceInvaders.DLink">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.568" Y="0.068" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="pReserve" Type="SpaceInvaders.DLink" FixedToPoint="true">
+      <Path>
+        <Point X="2.75" Y="1" />
+        <Point X="4.75" Y="1" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.552" Y="0.052" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>kAAIABAAQgAAAABBIABApAMEAAgAAAAgAAQAAEQQAAA=</HashCode>
+      <FileName>Manager\Manager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pActive" />
+      <Field Name="pReserve" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.DLink" Collapsed="true">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAEABAAAAAAAIAwAAIAQAAAAAAFQEg=</HashCode>
+      <FileName>Manager\List\DLink.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.SpriteManager">
+    <Position X="1.25" Y="2" Width="1.5" />
+    <Members>
+      <Method Name="~SpriteManager" Hidden="true" />
+      <Method Name="Add" Hidden="true" />
+      <Method Name="DerivedCompare" Hidden="true" />
+      <Method Name="DerivedCreateNode" Hidden="true" />
+      <Method Name="DerivedDestroyNode" Hidden="true" />
+      <Method Name="Find" Hidden="true" />
+      <Method Name="Print" Hidden="true" />
+      <Field Name="pSpriteCompare" Hidden="true" />
+      <Method Name="Remove" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAIIAAAAAAAAAAEAAAAAJAAAAABIAEAAAAACAEAEAAA=</HashCode>
+      <FileName>Sprite\SpriteManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.Sprite" Collapsed="true">
+    <Position X="4.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgQAAAAAAAAALAAAAAgIAAEAAAAEEAAAARAAQAAEdIA=</HashCode>
+      <FileName>Sprite\Sprite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.SpriteBase" Collapsed="true">
+    <Position X="4.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAQEAAgABAAAAAZAAAAAAAAAgAAAAABAYBBgAABAAAA=</HashCode>
+      <FileName>Sprite\SpriteBase\SpriteBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SpaceInvaders.CollisionObserver">
+    <Position X="2.75" Y="1" Width="1.75" />
+    <AssociationLine Name="pSubject" Type="SpaceInvaders.CollisionSubject">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.377" Y="0.085" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAQAABAEAAAAAAAAAA=</HashCode>
+      <FileName>Collision\Observer\CollisionObserver.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pSubject" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.CollisionSubject">
+    <Position X="6" Y="1" Width="1.5" />
+    <Members>
+      <Method Name="~CollisionSubject" Hidden="true" />
+      <Method Name="CollisionSubject" Hidden="true" />
+    </Members>
+    <AssociationLine Name="pObjA" Type="SpaceInvaders.GameObject">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.293" Y="0.268" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="pObjB" Type="SpaceInvaders.GameObject">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.343" Y="-0.448" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AgAAAIAAAAAAAEIAAAAAAAAAAIAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Collision\Observer\CollisionSubject.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pObjA" />
+      <Field Name="pObjB" />
+      <Field Name="pHead" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.ExplosionSoundObserver">
+    <Position X="4.75" Y="3.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Collision\Observer\ExplosionSoundObserver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.RemoveAlienObserver">
+    <Position X="2.75" Y="3.5" Width="1.75" />
+    <Members>
+      <Field Name="pAlien" Hidden="true" />
+      <Field Name="pComposite" Hidden="true" />
+      <Method Name="RemoveAlienObserver" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAIAAAAAAABAEAAAAAAAAAA=</HashCode>
+      <FileName>Collision\Observer\RemoveAlienObserver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.PlayerDeathObserver">
+    <Position X="0.5" Y="3.5" Width="1.75" />
+    <Members>
+      <Field Name="livesFont" Hidden="true" />
+      <Method Name="PlayerDeathObserver" Hidden="true" />
+      <Field Name="playerName" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAAAAAAABAEAAAAAAAAAE=</HashCode>
+      <FileName>Collision\Observer\PlayerDeathObserver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.GameObject" Collapsed="true">
+    <Position X="9" Y="1.25" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="SpaceInvaders.GameObject.Name" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>GameObject\GameObject.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AIQAAAEAAAAAQAYAAASABAAAABAEIAAAYABgQoEABAA=</HashCode>
+      <FileName>GameObject\GameObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

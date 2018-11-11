@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SpaceInvaders.SpriteBatchManager" Collapsed="true">
+    <Position X="0.5" Y="3.75" Width="1.5" />
+    <InheritanceLine Type="SpaceInvaders.Manager" ManuallyRouted="true">
+      <Path>
+        <Point X="2.5" Y="1.062" />
+        <Point X="2.5" Y="2.829" />
+        <Point X="1.25" Y="2.829" />
+        <Point X="1.25" Y="3.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>ABIIAAACAAAAAgEAAAAAJAAAAABIAEAAAAACAAAEAAA=</HashCode>
+      <FileName>SpriteBatch\SpriteBatchManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.Manager" Collapsed="true">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <AssociationLine Name="pActive" Type="SpaceInvaders.DLink">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="1.652" Y="-0.248" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="pReserve" Type="SpaceInvaders.DLink">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="1.635" Y="0.085" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>kAAIABACQgAAAABBAABApAEAAAgAAAAgAAQAAAAQAAg=</HashCode>
+      <FileName>Manager\Manager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pActive" />
+      <Field Name="pReserve" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.DLink" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAEAAAAAAAAAIAwAAIAQAAAAAAFQEA=</HashCode>
+      <FileName>Manager\List\DLink.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.SpriteBaseRef" Collapsed="true">
+    <Position X="7.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAACAAAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>SpriteBatch\SpriteBaseRef.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pSpriteBase" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.SpriteBase" Collapsed="true">
+    <Position X="10.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAQAAAAAAAAAAABAAAAAAAAAAAAAAAAAABBgAABAAAA=</HashCode>
+      <FileName>Sprite\SpriteBase\SpriteBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.SpriteBatch" Collapsed="true">
+    <Position X="4.75" Y="2" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="SpaceInvaders.SpriteBatch.Name" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>SpriteBatch\SpriteBatch.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <AssociationLine Name="pSBRefManager" Type="SpaceInvaders.SpriteBaseRefManager">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.068" Y="0.66" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAIAEAAAAAAAAwAQABAA=</HashCode>
+      <FileName>SpriteBatch\SpriteBatch.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pSBRefManager" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.SpriteBaseRefManager" Collapsed="true">
+    <Position X="3.25" Y="3.75" Width="1.5" />
+    <InheritanceLine Type="SpaceInvaders.Manager" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="2.5" Y="1.062" />
+        <Point X="2.5" Y="2.808" />
+        <Point X="3.688" Y="2.808" />
+        <Point X="3.688" Y="3.75" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>ABAIAAACAAAABgAAAAAAJAAAAIAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SpriteBatch\SpriteBaseRefManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.Sprite" Collapsed="true">
+    <Position X="9.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAALAAAAAgIAAAAAAAEEAAAARAAAAAEQIA=</HashCode>
+      <FileName>Sprite\Sprite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.SpriteBox" Collapsed="true">
+    <Position X="11" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAACQAAAhEAAAAAAAAAABAAEAAAAARAAAAAEAAA=</HashCode>
+      <FileName>Sprite\SpriteBox\SpriteBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
